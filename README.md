@@ -65,15 +65,36 @@ Multiple related incidents were linked to this problem record for investigation 
 ---
 
 ## Project Screenshots
-(Add screenshots of your implementation here)
 
-Example screenshots to include:
-- Incident creation
-- Automatic assignment by category
-- SLA tracking
-- Incident dashboard
-- Problem record with linked incidents
+### Incident List
+![Incident List]
 
+### Assignment Groups
+![Assignment Groups](assignment-groups.png)
+
+### Business Rule – Auto Assignment
+![Business Rule](business-rule-auto-assignment.png)
+
+### Auto Assignment Working
+![Auto Assignment](incident-auto-assignment-working.png)
+
+### Priority Automation – Client Script
+![Priority Client Script](priority-client-script-config.png)
+
+### SLA Running
+![SLA Tracking](incident-sla-running.png)
+
+### Incident Management Dashboard
+![Incident Dashboard](incident-management-dashboard.png)
+
+### Incidents by Priority Report
+![Incidents by Priority](report-incidents-by-priority.png)
+
+### Incidents by Category Report
+![Incidents by Category](report-incidents-by-category.png)
+
+### Problem Record with Linked Incidents
+![Problem Record](problem-record.png)
 ---
 
 ## Outcome
