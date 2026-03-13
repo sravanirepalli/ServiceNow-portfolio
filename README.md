@@ -54,7 +54,7 @@ Assignment logic used:
 
 Network incidents → Network Support  
 Hardware incidents → Hardware Support  
-Software incidents → Application Support  
+Software incidents → Software Support  
 
 This automation reduces manual triage and ensures tickets are routed to the correct support teams.
 
