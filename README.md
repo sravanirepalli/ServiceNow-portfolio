@@ -67,7 +67,7 @@ Multiple related incidents were linked to this problem record for investigation 
 ## Project Screenshots
 
 ### Incident List
-![Incident List]
+![Incident List](incident-list.png)
 
 ### Assignment Groups
 ![Assignment Groups](assignment-groups.png)
