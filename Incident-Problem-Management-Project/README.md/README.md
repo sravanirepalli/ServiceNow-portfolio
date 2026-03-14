@@ -111,7 +111,40 @@ This process helps identify root causes and prevents recurring incidents.
 • Problem management for recurring issues  
 
 ---
+## Challenges & Solutions
 
+During the implementation several challenges were encountered while configuring automation and workflow logic.
+
+### 1. Incident Assignment Automation
+Initially incidents were not automatically assigning to the correct support group due to incorrect category values and missing group sys_id references in the Business Rule.
+
+**Solution:**  
+Updated the Business Rule logic and verified group sys_id values to ensure incidents are routed correctly based on category.
+
+---
+
+### 2. Priority Calculation Logic
+Priority was not updating consistently when impact or urgency values changed.
+
+**Solution:**  
+Implemented client scripts on both the *Impact* and *Urgency* fields to dynamically recalculate the priority whenever either value changes.
+
+---
+
+### 3. SLA Attachment
+The SLA did not attach to incidents during testing because the start condition was incorrectly configured.
+
+**Solution:**  
+Adjusted the SLA definition condition to trigger when priority equals **1 - Critical** and validated the lifecycle states for resolution tracking.
+
+---
+
+### 4. Problem Record Association
+Linking incidents to a problem record required configuring the correct related list and verifying the reference field.
+
+**Solution:**  
+Enabled the problem reference field on the incident form and linked recurring incidents to a problem record for root cause analysis.
+---
 ## Project Outcome
 
 This project demonstrates how ServiceNow can automate IT support workflows, improve ticket routing efficiency, track service performance through SLAs, and identify recurring issues using problem management.
@@ -119,9 +152,7 @@ This project demonstrates how ServiceNow can automate IT support workflows, impr
 The implementation reflects how enterprise organizations manage IT service operations using the ServiceNow platform.
 
 ---
-
 ## Architecture / Workflow
-
 The following workflow represents the Incident and Problem Management implementation.
 
 User reports issue  
