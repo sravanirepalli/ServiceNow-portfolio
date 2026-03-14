@@ -120,6 +120,24 @@ The implementation reflects how enterprise organizations manage IT service opera
 
 ---
 
+## Architecture / Workflow
+
+The following workflow represents the Incident and Problem Management implementation.
+
+User reports issue  
+↓  
+Incident record created in ServiceNow  
+↓  
+Business Rule automatically assigns the incident to the correct support group based on category  
+↓  
+Client Script calculates priority using impact and urgency values  
+↓  
+SLA attaches to the incident and tracks resolution time  
+↓  
+Support team resolves the incident  
+↓  
+Recurring incidents are linked to a Problem record for root cause analysis
+---
 ## Screenshots
 
 ![Incident List](../screenshots/incident-list.png)
