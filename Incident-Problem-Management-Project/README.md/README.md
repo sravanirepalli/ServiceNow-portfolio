@@ -120,9 +120,9 @@ The implementation reflects how enterprise organizations manage IT service opera
 
 
 ---
-The following screenshots demonstrate the configuration and testing of the ServiceNow Incident and Problem Management implementation.
 ## Screenshots
 
+The following screenshots demonstrate the configuration and testing of the ServiceNow Incident and Problem Management implementation.
 ### Incident List
 ![Incident List](screenshots/incident-list.png)
 
