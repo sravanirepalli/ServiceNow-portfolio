@@ -123,11 +123,25 @@ The implementation reflects how enterprise organizations manage IT service opera
 
 The following screenshots demonstrate the configuration and testing of the ServiceNow Incident and Problem Management implementation.
 
+## Screenshots
+
+### Incident List
 ![Incident List](screenshots/incident-list.png)
+
+### Assignment Groups
 ![Assignment Groups](screenshots/assignment-groups.png)
+
+### Business Rule – Auto Assignment
 ![Business Rule](screenshots/business-rule-auto-assignment.png)
-![Auto Assignment](screenshots/incident-auto-assignment-working.png)
+
+### Client Script – Priority Calculation
 ![Client Script](screenshots/priority-client-script-config.png)
-![SLA](screenshots/incident-sla-running.png)
+
+### SLA Tracking
+![SLA Tracking](screenshots/incident-sla-running.png)
+
+### Incident Management Dashboard
 ![Dashboard](screenshots/incident-management-dashboard.png)
+
+### Problem Record
 ![Problem Record](screenshots/problem-record.png)
