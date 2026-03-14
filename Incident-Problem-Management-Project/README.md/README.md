@@ -127,6 +127,7 @@ SLA attaches to the incident and tracks resolution time
 Support team resolves the incident  
 ↓  
 Recurring incidents are linked to a Problem record for root cause analysis
+
 ---
 ## Challenges & Solutions
 
@@ -159,8 +160,9 @@ Adjusted the SLA definition condition to trigger when priority equals **1 - Crit
 ### 4. Problem Record Association
 Linking incidents to a problem record required configuring the correct related list and verifying the reference field.
 
-Solution:
+**Solution:**
 Enabled the problem reference field on the incident form and linked recurring incidents to a problem record for root cause analysis.
+
 ---
 ## Project Outcome
 
