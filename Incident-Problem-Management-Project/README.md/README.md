@@ -111,6 +111,23 @@ This process helps identify root causes and prevents recurring incidents.
 • Problem management for recurring issues  
 
 ---
+## Architecture / Workflow
+The following workflow represents the Incident and Problem Management implementation.
+
+User reports issue  
+↓  
+Incident record created in ServiceNow  
+↓  
+Business Rule automatically assigns the incident to the correct support group based on category  
+↓  
+Client Script calculates priority using impact and urgency values  
+↓  
+SLA attaches to the incident and tracks resolution time  
+↓  
+Support team resolves the incident  
+↓  
+Recurring incidents are linked to a Problem record for root cause analysis
+---
 ## Challenges & Solutions
 
 During the implementation several challenges were encountered while configuring automation and workflow logic.
@@ -142,7 +159,7 @@ Adjusted the SLA definition condition to trigger when priority equals **1 - Crit
 ### 4. Problem Record Association
 Linking incidents to a problem record required configuring the correct related list and verifying the reference field.
 
-**Solution:**  
+Solution:
 Enabled the problem reference field on the incident form and linked recurring incidents to a problem record for root cause analysis.
 ---
 ## Project Outcome
@@ -152,23 +169,7 @@ This project demonstrates how ServiceNow can automate IT support workflows, impr
 The implementation reflects how enterprise organizations manage IT service operations using the ServiceNow platform.
 
 ---
-## Architecture / Workflow
-The following workflow represents the Incident and Problem Management implementation.
 
-User reports issue  
-↓  
-Incident record created in ServiceNow  
-↓  
-Business Rule automatically assigns the incident to the correct support group based on category  
-↓  
-Client Script calculates priority using impact and urgency values  
-↓  
-SLA attaches to the incident and tracks resolution time  
-↓  
-Support team resolves the incident  
-↓  
-Recurring incidents are linked to a Problem record for root cause analysis
----
 ## Screenshots
 
 ![Incident List](../screenshots/incident-list.png)
