@@ -1,4 +1,4 @@
-# Enterprise Incident & Problem Management Implementation in ServiceNow
+# Incident & Problem Management Implementation 
 
 ## Project Overview
 
